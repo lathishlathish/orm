@@ -26,7 +26,7 @@ SECRET_KEY = '-5#&jr+^4n$#&6ix5335+7duo#j485^db-61c%xz7l0+qi0swq'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'arpanbardhan.student.saveetha.in'
+    'gokulvijayaramanuja.student.saveetha.in'
 ]
 # Application definition
 
