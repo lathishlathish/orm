@@ -49,10 +49,10 @@ class EmployeeAdmin(admin.ModelAdmin):
 ## OUTPUT
 
 ## Employee table with 10 records
-![OUTPUT](images/pic1.png)
+![OUTPUT](images/PICTURE1.png)
 
 ## Primary key demo
-![OUTPUT](images/pic2.png)
+![OUTPUT](images/PICTURE2.png)
 
 ## RESULT
 The program for Django ORM App is executed successfully.
