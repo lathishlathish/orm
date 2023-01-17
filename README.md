@@ -49,7 +49,7 @@ class EmployeeAdmin(admin.ModelAdmin):
 ## OUTPUT
 
 ## Employee table with 10 records
-![OUTPUT](images/PICTURE1.png)
+![OUTPUT](images/PICTURE3.png)
 
 ## Primary key demo
 ![OUTPUT](images/PICTURE2.png)
