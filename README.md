@@ -21,19 +21,21 @@ Write your own steps
 
 ## PROGRAM
 
-Include your code here
 #admin.py:
+```
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 
 #Register your models here.
 admin.site.register(Employee,EmployeeAdmin)
-
+```
 #models.py:
+```
 from django.db import models
 from django.contrib import admin
-
+```
 #Create your models here.
+```
 class Employee (models.Model):
     employeeid=models.CharField(primary_key=True,max_length=20,help_text="employeeid")
     name=models.CharField(max_length=100)
@@ -45,7 +47,7 @@ class Employee (models.Model):
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('employeeid','name','age','email','role','salary')
 
-
+```
 ## OUTPUT
 
 ## Employee table with 10 records
